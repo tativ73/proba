@@ -1,0 +1,166 @@
+@-moz-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }
+}
+@keyframes fade {
+    from { opacity: 0; }
+to { opacity: 1 }   
+}
+body{
+  background-color:#ffffff;
+  width: 100%;
+  min-height: 1200px;
+  margin: 0;
+  padding: 2px;
+}
+header {
+  background-color: slategray;
+width: 100%;
+min-height: 200px;
+color: white;
+}
+ul {
+  list-style: none;
+}
+
+ul li:before {
+  content: '✓';
+}
+.headr-img{
+  float: right;
+  width: 30%;
+}
+.about{
+  background-color: white;
+width: 100%;
+min-height: 200px;
+}
+.video{
+	float: right;
+  width: 30%;
+}
+
+.plusess {
+  width: 100%;
+  min-height: 250px;
+  background-color: lavender;
+  color: lightslategray; 
+
+}
+.middle {
+  text-align: center;
+}
+.col{
+display: flex;
+}
+
+
+.col2-1 {
+  float: left;
+  width: 45%;
+}
+.col2-2 {clear: both;
+  float: right;
+  width: 45%;
+  }
+ 
+ .kot1 {
+  color:lightslategray; 
+}
+
+.kot {
+  width: 45%;
+  line-height: 0.5; 
+
+}
+.kot-img {
+  float: left;
+  width: 30%;
+}
+ .tk{
+    size: 0.5 em;
+  }
+.kotesmall {
+  display: flex;
+}
+
+.ava {
+  display: inline-flex;
+}
+.ava1 {
+  display: inline-flex;
+}
+.rev {
+  height: 250px;
+  background-color:lavender; 
+}
+
+
+/*отзывы закончились*/
+
+/*покупки*/
+.revvv {
+  display: inline-flex;
+  background-color: slategray;
+  margin: auto;
+}
+.standart {
+  border: 1px solid grey;
+  padding: 10px;
+  height: auto;
+  width: 200px;
+  text-align: center;
+
+}
+
+.premium {
+  border: 1px solid grey;
+  padding: 10px;
+  height: auto;
+  width: 200px;
+  text-align: center;
+
+}
+
+.lux {
+  border: 1px solid grey;
+  padding: 10px;
+  height: auto;
+  width: 200px;
+  text-align: center;
+
+}
+
+
+/*покупки закончились*/
+
+/*контакты*/
+footer {
+  background-color: slategray;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 46px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #000;
+}
+
+.google-pluse a:hover {background: #DD4B39; color: #fff;}
+.twitter a:hover {background: #00acee; color: #fff;}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+
+/*контакты закончились*/
